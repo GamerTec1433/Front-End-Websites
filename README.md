@@ -7,6 +7,8 @@ https://bloggerwebsite1433.000webhostapp.com/index.php
 
 https://torpedoland.netlify.app
 
+https://torpedogaming.netlify.app
+
 https://blood6.netlify.app
 
 https://coffeelover14.netlify.app
@@ -24,7 +26,5 @@ https://desgin16.netlify.app
 https://whatif1.netlify.app
 
 https://bussines143.netlify.app
-
-https://torpedogaming.netlify.app
 
 https://template-publishing.netlify.app
