@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="login/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Website 4</title>
+</head>
+<body id="body">
+	<div id="log-reg">
+		<div class="containerLR">
+			<form id="login" class="input-group" onsubmit="return false">
+				<h2>Login Part</h2>
+				<input class="input-field" type="text" placeholder="Username" name="username" required>
+				<input class="input-field" type="password" placeholder="Password" name="password" required>
+				<div class="input-feld-check">
+					<input type="checkbox" name="">
+					<p>Remeber The Password</p>
+				</div>
+				<input class="input-submit" type="submit" value="Login" onclick="checkEmpty()">
+			</form>
+			<form id="register" class="input-group" onsubmit="return false">
+				<h2>Register Part</h2>
+				<input class="input-field" type="text" placeholder="Username" name="username" required>
+				<input class="input-field" type="email" placeholder="email" name="email" required>
+				<input class="input-field" type="password" placeholder="Password"  name="password" required>
+				<input class="input-submit" type="submit" name="" value="Register" onclick="checkEmpty2()">
+			</form>
+			<div class="btns">
+				<span id="btn-color"></span>
+				<button type="button" onclick="Login()">Log In</button>
+				<button type="button" onclick="Register()">Sign Up</button>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navPar">
+		<p><a href="">Industrious</a></p>
+		<ul>
+			<li>HOME</li>
+			<li>ABOUT</li>
+			<li>CONTACT</li>
+			<li onclick="openLogin()">SIGN UP</li>
+		</ul>
+	</nav>
+	<section class="intro">
+		<div class="container">
+			<h1>INDUSTRIOUS</h1>
+			<p>A responsive business oriented template with a video background
+			designed by TEMPLATED and released under the Creative Commons License.</p>
+		</div>
+	</section>
+	<section class="services">
+		<div class="container2">
+			<header>
+				<h2>SEM TURPIS AMET SEMPER</h2>
+				<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+			</header>
+			<div class="services-grid">
+				<div>
+					<i class="far fa-address-card icon"></i>
+					<h3>FEUGIAT CONSEQUAT</h3><br>
+					<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+				</div>
+				<div>
+					<i class="far fa-file icon"></i>
+					<h3>FEUGIAT CONSEQUAT</h3><br>
+					<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+				</div>
+				<div>
+					<i class="far fa-chart-bar icon"></i>
+					<h3>FEUGIAT CONSEQUAT</h3><br>
+					<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+				</div>
+				<div>
+					<i class="far fa-envelope icon"></i>
+					<h3>FEUGIAT CONSEQUAT</h3><br>
+					<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+				</div>
+				<div>
+					<i class="fas fa-shipping-fast icon"></i>
+					<h3>FEUGIAT CONSEQUAT</h3><br>
+					<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+				</div>
+				<div>
+					<i class="fas fa-at icon"></i>
+					<h3>FEUGIAT CONSEQUAT</h3><br>
+					<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="mid">
+		<div class="container3">
+			<h2>CURABITUR ULLAMCORPER ULTRICIES</h2>
+			<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+		</div>
+	</section>
+	<section class="people">
+		<div class="container4">
+			<header>
+			<h2>FAUCIBUS CONSEQUAT LOREM</h2>
+			<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+			</header>
+			<div class="people-grid">
+				<div class="people-grid-div">
+					<p class="people-grid-p">
+						Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.
+					</p>
+					<div>
+						<img src="img/person1.jpg">
+						<p>- <span>First Person</span> - ABC Inc.</p>
+					</div>
+				</div>
+				<div class="people-grid-div">
+					<p class="people-grid-p">
+						Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.
+					</p>
+					<div>
+						<img src="img/person2.jpg">
+						<p>- <span>Second Person</span> - ABC Inc.</p>
+					</div>
+				</div>
+				<div class="people-grid-div">
+					<p class="people-grid-p">
+						Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.
+					</p>
+					<div>
+						<img src="img/person3.jpg">
+						<p>- <span>Third Person</span> - ABC Inc.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container5">
+			<div class="container6">
+				<div class="left">
+				<h3>ACCUMSAN MONTES VIVERRA</h3>
+				<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+				</div>
+				<div class="midd">
+					<h3>SEM TURPIS AMET SEMPER</h3>
+					<a href="">Dolor pulvinar sed etiam.</a>
+					<div class="line"></div>
+					<a href="">Etiam vel lorem sed amet.</a>
+					<div class="line"></div>
+					<a href="">Felis enim feugiat viverra.</a>
+					<div class="line"></div>
+					<a href="">Dolor pulvinar magna etiam.</a>
+				</div>
+				<div class="right">
+					<h3>MAGNA SED IPSUM</h3>
+					<div>
+						<span><i class="fab fa-twitter-square icon2"></i><p>Twitter</p></span>
+						<span><i class="fab fa-facebook-square icon2"></i><p>Facebook</p></span>
+						<span><i class="fab fa-github-square icon2"></i><p>Github</p></span>
+						<span><i class="fab fa-instagram icon2">
+						</i><p>Instagram</p></span>
+					</div>
+				</div>
+			</div>
+			<div class="line2"></div>
+			<p class="footer-p">© Untitled. All rights reserved. Photos <span>pexels</span>, By <span>Mohamed Wael</span>.</p>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+	<script src="https://kit.fontawesome.com/a1fdd42e8e.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="login/script.js"></script>
+</body>
+</html>

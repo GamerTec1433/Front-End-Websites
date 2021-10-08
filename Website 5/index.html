@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+	
+	<title>Website 5</title>
+</head>
+<body>
+	<section class="intro" id="sec1">
+		<header id="sec1-header">
+			<img src="http://pluspng.com/img-png/league-of-legends-png-league-of-legends-logo-transparent-png-900.png" alt="League Of Legends PNG">
+			<div class="head-p">
+				<p>League Of Legends Provides Online Game Service</p>
+				<div>
+					<p>Follow us on</p>
+					<i class="fab fa-facebook-f icon"></i>
+					<i class="fab fa-twitter icon"></i>
+					<i class="fas fa-envelope icon"></i>
+				</div>
+			</div>
+		</header>
+		<div class="warp-btn">
+			<h1 class="warp1">JOIN THE LEAGUE</h1>
+			<h1 class="warp2">BECOME A LEGEND</h1>
+			<a href="#sec2"><button onclick="BotAni()">Play For Free</button></a>
+		</div>
+		<video autoplay muted loop src="vid/vid2.mp4"></video>
+	</section>
+	<section class="content" id="sec2">
+		<a href="#sec1"><button onclick="TopAni()" id="btn-bot">Top</button></a>
+		<h1 id="content-head">FEATURE</h1>
+		<div class="contents" id="contents">
+			<p>"Lorem ipsum dolor sit amet, consectetur."</p>
+			<p>"Lorem ipsum dolor sit amet, consectetur adipisicing."</p>
+			<p>"Lorem ipsum dolor sit."</p>
+			<p>"Lorem ipsum dolor sit amet, consectetur."</p>
+			<p>"Lorem ipsum dolor sit amet, consectetur adipisicing."</p>
+			<p>"Lorem ipsum dolor sit."</p>
+		</div>
+		<div class="contents-num" id="contents-num">
+			<div class="circle" onclick="selectImg(0)"><p>1</p></div>
+			<div class="circle"	onclick="selectImg(1)"><p>2</p></div>
+			<div class="circle"	onclick="selectImg(2)"><p>3</p></div>
+			<div class="circle"	onclick="selectImg(3)"><p>4</p></div>
+			<div class="circle"	onclick="selectImg(4)"><p>5</p></div>
+			<div class="circle"	onclick="selectImg(5)"><p>6</p></div>
+		</div>
+		<div id="arrows">
+			<button onclick="nextImg()" class="arrow-up"><i class="fas fa-angle-up"></i></button>
+			<button onclick="backImg()" class="arrow-down"><i class="fas fa-angle-down"></i></button>
+		</div>
+		<div class="galary" id="galary">
+			<img src="img/1.jpg" style="z-index: 2">
+			<img src="img/2.png" style="z-index: 2">
+			<img src="img/3.jpg" style="z-index: 2">
+			<img src="img/4.jpg" style="z-index: 2">
+			<img src="img/5.jpg" style="z-index: 2">
+			<img src="img/6.jpg" style="z-index: 2">
+		</div>
+		<div class="line"></div>
+		<div id="lineLoad"></div>
+		<video autoplay muted loop src="vid/vid1.mp4"></video>
+	</section>
+	<footer>
+		
+	</footer>
+	<script src="https://kit.fontawesome.com/a1fdd42e8e.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+	<script src="jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
