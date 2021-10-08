@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Website 7About</title>
+</head>
+<body class="menu">
+	<main class="backgroundMenu">
+		<div class="main" id="swup">
+			<div class="menu-content">
+				<h1>Menu</h1>
+				<h2>Starters</h2>
+				<p>Tomato Soup <strong>$2.50</strong></p>
+				<p>Chicken Salad <strong>$3.50</strong></p>
+				<p>Bread and Butter <strong>$1.00</strong></p>
+				<h2>Main Courses</h2>
+				<p>Grilled Fish and Potatoes <strong>$8.50</strong></p>
+				<p>Italian Pizza <strong>$5.50</strong></p>
+				<p>Veggie Pasta <strong>$4.00</strong></p>
+				<p>Chicken and Potatoes <strong>$6.50</strong></p>
+				<p>Deluxe Burger <strong>$5.00</strong></p>
+				<h2>Desserts</h2>
+				<p>Fruit Salad <strong>$2.50</strong></p>
+				<p>Ice cream <strong>$3.50</strong></p>
+				<p>Chocolate Cake <strong>$4.00</strong></p>
+				<p>Cheese <strong>$5.50</strong></p>
+			</div>
+			<div class="sidebar">
+				<img src="img/logo.png" class="logoSide">
+				<div class="sidebarBtn" onclick="funMenu()">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</div>
+				<div class="item"><a href="index.html">
+					<div class="itemflex">
+						<i class="fas fa-home icon"></i>
+						<p>Home</p>
+					</div>
+					<div class="line"></div></a>
+				</div>
+				<div class="item"><a href="about.html">
+					<div class="itemflex">
+						<i class="fas fa-users icon"></i>
+						<p>About</p>
+					</div>
+					<div class="line"></div></a>
+				</div>
+				<div class="item"><a href="menu.html">
+					<div class="itemflex">
+						<i class="fas fa-sticky-note icon"></i>
+						<p>Menu</p>
+					</div>
+					<div class="line"></div></a>
+				</div>
+				<div class="item"><a href="contact.html">
+					<div class="itemflex">
+						<i class="fas fa-paper-plane icon"></i>
+						<p>Contact</p>
+					</div>
+					<div class="line"></div></a>
+				</div>
+			</div>
+			<footer>© Copyright 2018 By Muhammed Wael - All Rights Reserved</footer>
+		</div>
+
+
+	</main>
+	
+	<div class="loader-wrapper">
+    	<span class="loader"><span class="loader-inner"></span></span>
+	</div>
+	<script
+	src="jquery-3.4.1.js"></script>
+	<script src="https://kit.fontawesome.com/a1fdd42e8e.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script>
+		$(window).on("load",function(){
+     		$(".loader-wrapper").fadeOut("slow");
+		});
+	</script>
+</body>
+</html>

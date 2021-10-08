@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Website 7</title>
+</head>
+<body class="contact">
+	<main class="backgroundContact">
+		<div class="main">
+			<div class="contact-form">
+				<h1>Contact</h1>
+				<form>
+					<input type="text" placeholder="Your Name" required="">
+					<input type="email" placeholder="Your E-mail" required="">
+					<input type="number" placeholder="Your Number" required="">
+					<textarea placeholder="Your Message" required=""></textarea>
+					<button type="submit"><i class="fas fa-paper-plane"></i> SEND</button>
+				</form>
+			</div>
+			<div class="sidebar">
+				<img src="img/logo.png" class="logoSide">
+				<div class="sidebarBtn" onclick="funMenu()">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</div>
+				<div class="item"><a href="index.html">
+					<div class="itemflex">
+						<i class="fas fa-home icon"></i>
+						<p>Home</p>
+					</div>
+					<div class="line"></div></a>
+				</div>
+				<div class="item"><a href="about.html">
+					<div class="itemflex">
+						<i class="fas fa-users icon"></i>
+						<p>About</p>
+					</div>
+					<div class="line"></div></a>
+				</div>
+				<div class="item"><a href="menu.html">
+					<div class="itemflex">
+						<i class="fas fa-sticky-note icon"></i>
+						<p>Menu</p>
+					</div>
+					<div class="line"></div></a>
+				</div>
+				<div class="item"><a href="contact.html">
+					<div class="itemflex">
+						<i class="fas fa-paper-plane icon"></i>
+						<p>Contact</p>
+					</div>
+					<div class="line"></div></a>
+				</div>
+			</div>
+			<footer>© Copyright 2018 By Muhammed Wael - All Rights Reserved</footer>
+		</div>
+
+
+	</main>
+	<div class="loader-wrapper">
+    	<span class="loader"><span class="loader-inner"></span></span>
+	</div>
+	<script
+	src="jquery-3.4.1.js"></script>
+	<script src="https://kit.fontawesome.com/a1fdd42e8e.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script>
+		$(window).on("load",function(){
+     		$(".loader-wrapper").fadeOut("slow");
+		});
+	</script>
+</body>
+</html>

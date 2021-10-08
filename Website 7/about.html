@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Website 7Menu</title>
+	</head>
+	<body class="about">
+		<main class="backgroundAbout">
+			<div class="main">
+				<div class="about-content">
+					<h1>About Us</h1>
+					<img src="img/about.jpg">
+					<div class="about-words">
+						<p>Matilda Bay Restaurant is located on the edge of Perth’s beautiful Matilda Bay in Crawley. Not a day goes by when we’re not wow’ed by the beauty of what’s on our doorstep as we overlook Matilda Bay with Kings Park and Perth City as our vista.</p><br>
+						<p>Our story is one of understanding the significance of food as a social experience. We understand there is something special about sharing food, whether that be with a loved one, or loved ones. It’s a long held ritual, an opportunity to bond, to interact, to create memories, to live.</p><br>
+						<p>It’s many of these philosophies that drive what we do for you at Matilda Bay.  Whether you’re joining us for dinner in the restaurant overlooking the bay, a drink with friends in our bar, a small work or personal gathering in our private Wine Room, training or a product launch in the Catalina Room or sharing your special day with family and friends as you marry in our Roe Room, we look forward to making your experience memorable, significant and mouthwateringly enjoyable.</p><br>
+						<p>Matilda Bay Restaurant opened it’s doors in 1968, but not in it’s current form. Originally serving classical French cuisine, it changed to the Mexican themed ‘El Sombrero’ in the mid 70’s where in 1984 the current owner and management team headed by Warwick Lavis changed the name.  In 2005 the venue was redeveloped with the restaurant being refurbished in 2007 delivering the latest in the evolution of our stunning Matilda Bay Food + Wine experience.</p>
+					</div>
+				</div>
+				<div class="sidebar">
+					<img src="img/logo.png" class="logoSide">
+					<div class="sidebarBtn" onclick="funMenu()">
+						<div class="line"></div>
+						<div class="line"></div>
+						<div class="line"></div>
+					</div>
+					<div class="item"><a href="index.html">
+						<div class="itemflex">
+							<i class="fas fa-home icon"></i>
+							<p>Home</p>
+						</div>
+						<div class="line"></div></a>
+					</div>
+					<div class="item"><a href="about.html">
+						<div class="itemflex">
+							<i class="fas fa-users icon"></i>
+							<p>About</p>
+						</div>
+						<div class="line"></div></a>
+					</div>
+					<div class="item"><a href="menu.html">
+						<div class="itemflex">
+							<i class="fas fa-sticky-note icon"></i>
+							<p>Menu</p>
+						</div>
+						<div class="line"></div></a>
+					</div>
+					<div class="item"><a href="contact.html">
+						<div class="itemflex">
+							<i class="fas fa-paper-plane icon"></i>
+							<p>Contact</p>
+						</div>
+						<div class="line"></div></a>
+					</div>
+				</div>
+			<footer>© Copyright 2018 By Muhammed Wael - All Rights Reserved</footer>
+		</div>
+	</main>
+	<div class="loader-wrapper">
+		<span class="loader"><span class="loader-inner"></span></span>
+	</div>
+	<script
+	src="jquery-3.4.1.js"></script>
+	<script src="https://kit.fontawesome.com/a1fdd42e8e.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script>
+		$(window).on("load",function(){
+		$(".loader-wrapper").fadeOut("slow");
+		});
+	</script>
+</body>
+</html>
