@@ -1,0 +1,115 @@
+#primary-screenshots-slider {
+    margin: 0 auto;
+    padding: 30px;
+    height: 600px;
+}
+
+@media (max-width: 1200px)
+{
+    #primary-screenshots-slider {
+        height: 400px;
+    }
+}
+
+@media (max-width: 700px)
+{
+    #primary-screenshots-slider {
+        height: 300px;
+    }
+}
+
+/* background-color: transparent; background-image: linear-gradient(rgba(15, 15, 15, 0), rgb(21, 21, 21)), linear-gradient(rgba(21, 21, 21, 0.8), rgba(21, 21, 21, 0.5)), url("https://media.rawg.io/media/resize/1280/-/games/6cc/6cc23249972a427f697a3d10eb57a820.jpg"); z-index: 1; */
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    background-size: cover;
+    background-position-x: center;
+    z-index: -1;
+}
+
+#primary-screenshots-slider img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#screenshots-slider {
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#screenshots-slider img{
+    width: 100%;
+    height: auto;
+}
+
+#games-series-slider {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#games-series-slider img {
+    height: 300px;
+    padding: 10px;
+}
+
+.card {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.card .content {
+    padding: 15px;
+}
+
+.card img {
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+
+.splide__slide, .splide__list, .splide__track {
+    height: 100%;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.page {
+    padding: 50px 100px;
+    color: white;
+}
+
+@media (max-width: 850px) {
+    .page {
+        padding-top: 20vh;
+    }
+}
+
+@media (max-width: 800px)
+{
+    .page {
+        padding: 50px 20px;
+        padding-top: 20vh;
+    }
+}
+
+.page h1 {
+    margin: 20px 0;
+}
+
+.page a {
+    color: white;
+}
+
+.rating h1 {
+    font-size: 130px;
+}

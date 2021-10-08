@@ -1,0 +1,13 @@
+#numbers {
+    background-color: rgba(0, 0, 0, .1);
+    padding: 20px;
+}
+
+#numbers h1 {
+    font-size: 45px;
+}
+
+#numbers p {
+    font-weight: 300;
+    font-size: 25px;
+}

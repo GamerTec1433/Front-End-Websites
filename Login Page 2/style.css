@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(11, 94,215);
+}
+
+.container {
+	background-color: white;
+	border-radius: 30px;
+}
+
+img {
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+.border-30 {
+	border-radius: 30px;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.google {
+	background-color: rgb(234, 67, 53);
+}
+
+.twitter {
+	background-color: rgb(15, 154, 251);
+}

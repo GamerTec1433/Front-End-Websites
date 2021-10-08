@@ -1,0 +1,128 @@
+:root {
+    --light-blue: rgb(175, 201, 212);
+    --orange: rgb(255, 130, 46);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+navbar {
+    padding: 20px 35px;
+}
+
+@media screen and (max-width: 768px) {
+    navbar div:nth-child(1) {
+        justify-content: center;
+    }
+}
+
+navbar .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: black;
+
+    width: 40px;
+    height: 40px;
+
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+    border-radius: 50px;
+    text-align: center;
+    transition: .2s background-color, color;
+}
+
+navbar .icon:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: var(--light-blue);
+}
+
+#brand-name {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+#brand-name span{
+    font-size: 30px;
+}
+
+#brand-name span:nth-child(1) {
+    color: black;
+}
+
+#brand-name span:nth-child(2) {
+    color: var(--orange);
+}
+
+navbar form div:nth-child(1) {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(238, 238, 238);
+    padding: 15px;
+    border-radius: 50px;
+}
+
+navbar input {
+    width: 225px;
+}
+
+navbar input, navbar button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+navbar button{
+    position: absolute;
+    background-color: var(--light-blue);
+    color: white;
+    width: 50px;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+navbar button:focus {
+    outline: none;
+}
+
+#navbar-content {
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, .2);
+}
+
+#navbar-content .active {
+    color: var(--light-blue);
+}
+
+#navbar-content a {
+    color: black;
+    font-weight: 600;
+    margin: 0px 15px;
+    text-decoration: none;
+    transition: .4s;
+}
+#navbar-content a:hover {
+    color: var(--light-blue);
+}
+#navbar-content a:hover::after {
+    width: 100%;
+}
+
+#navbar-content a::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: var(--light-blue);
+    transition: .2s;
+}

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.unactive {
+    display: none !important;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+body {
+    background-color: #1F1F1F;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    z-index: 10;
+}
+
+nav span {
+    color: #FCA311;
+}
+
+nav a {
+    transition: color .2s ease;
+}
+
+nav a:hover {
+    color: #FCA311;
+}
+
+.container {
+    padding: 20px 110px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+
+nav .search {
+    position: relative;
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+nav .search i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, .2);
+    transform: translateY(-50%);
+    transition: color .2s ease;
+}
+
+nav .search input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    font-size: 16px;
+    transition: background-color .2s ease;
+}
+
+nav .search input:focus {
+    color: black;
+    background-color: white;
+}
+
+nav .search input:focus ~ i {
+    color: black;
+}
+
+section {
+    padding: 0 100px;
+    padding-top: 10vh;
+}
+
+@media (max-width: 850px) {
+    nav .container {
+        flex-direction: column;
+        padding: 20px 30px;
+        gap: 10px;
+    }
+
+    nav .search {
+        width: 100%;
+    }
+    
+    section {
+        padding: 0 25px;
+        padding-top: 20vh;
+    }
+}
+section .main {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 25px;
+}
+
+@media (max-width: 1400px) {
+    section .main {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    section .main {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 800px) {
+    section .main {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
+
+section .main .item-grid {
+    max-width: 400px;
+    height: 400px;
+    transition: transform .2s ease;
+}
+
+section .main .item {
+    background-color: #0E0E0E;
+    border-radius: 15px;
+}
+
+section .main .item:hover> .content .data {
+    display: flex;
+}
+
+section .main .item-grid:hover {
+    transform: scale(1.05);
+}
+
+section .main .item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+section .main .item .content {
+    padding: 12px;
+}
+
+section .main .item a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+section .main .item a:hover {
+    color: rgba(255, 255, 255, .4);
+}
+
+section .main .item .data {
+    position: relative;
+    padding: 10px 10px 20px 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+section .main .item .data .line {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+section .main .item .data p {
+    color: rgba(255, 255, 255, .6);
+}
+
+section .main .item .data a {
+    color: white;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+section .main .item .data button {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, .3);
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+    transition: color, background-color .2s ease;
+}
+
+section .main .item .data button:hover {
+    background-color: white;
+    color: black;
+}
