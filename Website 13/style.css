@@ -1,0 +1,246 @@
+.margin-tb {
+	margin: 125px 0;
+}
+.navbar.navbar-expand-lg{
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	top: 0;
+}
+.navbar.navbar-expand-lg .navbar-brand {
+	text-transform: uppercase;
+	font-weight: 1000;
+	font-size: 2em;
+}
+.navbar.navbar-expand-lg .navbar-nav .active>.nav-link{
+	color: rgb(0,123,255);
+}
+.navbar.navbar-expand-lg .navbar-nav .nav-link{
+	font-size: 1.2em;
+}
+.navbar.navbar-expand-lg .navbar-nav .active>.nav-link:hover{
+	color: rgb(0,180,255);
+}
+.carousel{
+	height: 100vh;
+}
+.fil{
+	background-color: rgba(0,0,0);
+}
+.carousel img{
+	object-fit: cover;
+	height: 100vh;
+}
+.carousel-item {
+	position: relative;
+}
+.fil{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.7);
+}
+.carousel-caption h5 {
+	font-size: 4em;
+	font-weight: 800;
+}
+.carousel-caption p {
+	font-size: 1.5em;
+}
+.carousel-caption .btn{
+	padding: 10px 20px;
+	font-size: 1.2em;
+}
+.carousel-caption .btn.text-white:hover {
+	background-color: rgb(0,123,255);
+}
+.about img{
+	width: 100%;
+	border: 3px #fff solid;
+}
+.about .btn{
+	background-color: rgb(0,123,255);
+	color: white;
+}
+.about .btn:hover{
+	background-color: rgb(0,100,255);
+	color: white;
+}
+
+@media (max-width: 767.98px) {
+
+.carousel-caption h5 {
+	font-size: 2em;
+}
+.carousel-caption p {
+	font-size: 1.2em;
+}
+}
+
+.fa-code, .fa-html5, .fa-css3 {
+	font-size: 70px;
+}
+.fa-code{
+	color: rgb(255,50,150);
+}
+.fa-html5{
+	color: rgb(255,70,0);
+}
+.fa-css3 {
+	color: rgb(0,70,150);
+}
+.card:hover {
+	background-color: rgb(240,240,240);
+}
+
+.counter {
+	background-color: rgb(11,22,42);
+	color: #fff;
+}
+.counterBox {
+	transition: .2s;
+}
+.counterBox:hover{
+	background-color: rgb(0,70,150);
+}
+
+.divider{
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	background: url(img/slide2.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.divider .filter{
+	padding: 50px;
+	background-color: rgba(0,0,0,0.8);
+}
+.divider h1{
+	font-size: 3em;
+	font-weight: 1000;
+}
+.divider p{
+	font-size: 1.3em;
+	max-width: 700px;
+	margin: 0 auto;
+}
+.divider .btn{
+	font-size: 1.5em;
+	margin: 15px;
+	padding: 10px 25px;
+}
+@media (max-width: 992px) {
+
+.divider h1{
+	font-size: 2em;
+}
+.divider p{
+	font-size: 1em;
+}
+.divider .btn{
+	padding: 5px 15px;
+}
+}
+
+.drag-slider{
+
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+/* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.card img {
+	width: 100px;
+	border-radius: 50%;
+}
+.contact {
+	width: 100%;
+}
+.contact img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.contact form h1{
+	font-weight: 300;
+	text-align: center;
+}
+.contact .form{
+	background-color: rgb(64,83,227);
+	color: white;
+}
+
+.contact form input, textarea{
+	background-color: transparent;
+	border: 2px rgba(255,255,255,0.2) solid;
+	border-radius: 5px;
+	max-height: 400px;
+}
+textarea{
+	min-height: 150px;
+}
+.contact .btn{
+	font-size: 1.3em;
+	background-color: rgb(0,123,255);
+}
+
+.footer{
+	background-color: rgb(11,22,42);
+	color: white;
+}
+.footer ul{
+	list-style: none;
+}
+.footer p{
+	color: rgba(255,255,255,0.6);
+}
+.footer ul li a{
+	color: #fff;
+}
+.footer ul li a:hover{
+	color: rgba(255,255,255,0.6);
+}
+
+
+
+
+
+
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+*/
