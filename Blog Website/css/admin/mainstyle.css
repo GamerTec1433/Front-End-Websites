@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.admin {
+    min-height: 100vh;
+}
+
+.admin .navbar-brand {
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+    transition: color .2s ease;
+}
+
+.admin .navbar-brand:hover {
+    color: black;
+}
+
+.admin .side-bar {
+    width: 200px;
+    background-image: linear-gradient(to top, #b7117d, #cd2a78, #df4174, #ee5871, #fb6f6f);
+}
+
+.admin .main {
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+
+.admin .side-bar .d-flex {
+    font-size: 18px;
+}
+
+.admin .side-bar .d-flex a {
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    transition: color, background-color .2s ease;
+}
+
+.admin .side-bar .d-flex i {
+    margin-right: 10px;
+}
+
+.admin .side-bar .d-flex a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.admin .main .navbar {
+    position: relative !important;
+    background-image: linear-gradient(to left, #b7117d, #cd2a78, #df4174, #ee5871, #fb6f6f);
+}
+
+.admin .main .navbar .navbar-brand {
+    font-size: 30px;
+}
+
+.admin .navbar-nav i {
+    margin-right: 13px;
+}
+
+.admin .navbar-nav a {
+    color: white;
+    padding: 10px 0;
+    align-items: center;
+}
+
+@media (min-width: 575px) {
+    .admin .navbar-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .admin .side-bar {
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+.intro-content .item .col-md-8 {
+    height: 350px;
+}
+
+.intro-content .item a {
+    color: black;
+    text-decoration: underline;
+}
+
+.intro-content .item a:hover {
+    text-decoration: none;
+}
+
+.intro-content .item img {
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.intro-content .item .default {
+    color: rgba(0, 0, 0, .4);
+}
+
+.intro-content .item .main-header {
+    font-size: 30px;
+}

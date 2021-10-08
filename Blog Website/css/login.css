@@ -1,0 +1,33 @@
+.navbar {
+    position: relative !important;
+    background-color: rgb(26, 26, 26);
+}
+
+
+.login {
+    height: 70vh;
+}
+
+.register {
+    height: 100%;
+}
+
+.login .container {
+    width: 25%;
+}
+
+.login .container,
+.login .container form {
+    height: 100%;
+}
+@media (max-width: 1200px) {
+    .login .container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .login .container {
+        width: 75%;
+    }
+}

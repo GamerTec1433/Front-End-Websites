@@ -1,0 +1,50 @@
+.article .item img {
+    object-fit: contain;
+    object-position: center;
+    height: 300px;
+    width: 100%;
+}
+
+.article .item .default {
+    color: rgba(0, 0, 0, .4);
+}
+
+.article .item .main-header {
+    color: black;
+    text-decoration: underline;
+    transition: color .2s ease;
+}
+
+.article .item .main-header:hover {
+    text-decoration: none;
+}
+
+.article .item .main-header {
+    font-size: 30px;
+}
+
+.article .pages-number a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight: 600;
+    line-height: 33px;
+}
+
+.article .pages-number li {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: background-color .2s ease;
+}
+
+.article .pages-number .active {
+    background-color: rgb(255, 202, 132);
+}
+
+.article .pages-number li:hover {
+    background-color: rgb(255, 202, 132);
+}
